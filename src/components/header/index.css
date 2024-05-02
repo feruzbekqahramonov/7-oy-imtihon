@@ -1,0 +1,47 @@
+.header {
+  width: 100%;
+  background-color: #131313;
+}
+
+.header_container {
+  max-width: 1109px;
+  margin: 0 auto;
+  padding: 35px 0px 36px 0px;
+  border-bottom: 1px solid gray;
+}
+
+.pages_url {
+  margin-right: 34px;
+  color: white;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 2px;
+  transition: all 0.5s;
+}
+
+.pages_url:hover {
+  color: #D87D4A;
+}
+
+
+.btn {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  width: 120px;
+  height: 48px;
+  font-size: 16px;
+  border: none;
+  gap: 21px;
+  background-color: #FAFAFA;
+}
+
+.btn p {
+  font-size: 16px;
+}
+
+.btn p:hover {
+  color: #D87D4A;
+  cursor: pointer;
+}

@@ -1,0 +1,47 @@
+
+ .btn {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    width: 120px;
+    height: 48px;
+    font-size: 16px;
+    border: none;
+    gap: 21px;
+    background-color: #FAFAFA;
+}
+
+.btn p {
+    font-size: 16px;
+}
+
+.btn p:hover {
+    color: #D87D4A;
+    cursor: pointer;
+}
+
+.descriptions {
+    margin: 0 auto;
+    gap: 125px;
+}
+
+.desc1 p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.desc2 p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.images {
+    margin: 160px auto;
+}
+
+.cards_container {
+    width: 1109px;
+    margin: 160px auto;
+}

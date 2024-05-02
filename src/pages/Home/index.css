@@ -1,0 +1,175 @@
+.home {
+    width: 100%;
+    background-color: #131313;
+}
+
+.home_container {
+    max-width: 1109px;
+    margin: 0 auto;
+}
+
+.home_description {
+    max-width: 398px;
+}
+
+.medium {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 48px;
+    border-radius: 10px;
+    padding-left: 117px;
+    padding-right: 95px;
+    background-color: #D87D4A;
+    color: white;
+    padding-top: 96px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+
+.medium_title {
+    margin-top: 37px;
+}
+
+.medium_title h2 {
+
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 2px;
+    width: 261px;
+    margin-bottom: 24px;
+}
+
+.medium_title p {
+
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    width: 349px;
+    color: #fcf6f6;
+    margin-bottom: 40px;
+}
+
+
+.medium_title .button {
+    width: 160px;
+    height: 48px;
+    padding: 15px 29px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 1px;
+    background-color: #141414;
+    color: white;
+    border: none;
+    transition: all 0.5s;
+}
+
+.medium_title .button:hover {
+    background-color: #4C4C4C;
+    cursor: pointer;
+}
+
+.mask {
+    background-image: url(../../assets/bacground.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    max-width: 1110px;
+    border-radius: 10px;
+    padding-top: 101px;
+    padding-left: 95px;
+    padding-bottom: 101px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+
+.mask h1 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 2px;
+    margin-bottom: 32px;
+}
+
+.mask .button2 {
+    width: 160px;
+    height: 48px;
+    padding: 15px 29px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 1px;
+    color: black;
+    border: 1px solid black;
+    transition: all 0.5s;
+    background-color: #CDCDCD;
+}
+
+.mask .button2:hover {
+    background-color: #141414;
+    color: white;
+    cursor: pointer;
+}
+
+.earphones {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.earphones_title {
+    background-color: #F1F1F1;
+    width: 540px;
+    border-radius: 10px;
+    padding-left: 95px;
+    padding-top: 101px;
+    padding-bottom: 101px;
+}
+
+.earphones_title h1 {
+
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 2px;
+    margin-bottom: 32px;
+}
+
+.earphones_title .button3 {
+    width: 160px;
+    height: 48px;
+    padding: 15px 29px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 1px;
+    color: black;
+    border: 1px solid black;
+    transition: all 0.5s;
+}
+
+.earphones_title .button3:hover {
+    background-color: #141414;
+    color: white;
+    cursor: pointer;
+}
+
+.btn_link {
+
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #141414;
+}
+
+.btn_link:hover {
+    color: white;
+}

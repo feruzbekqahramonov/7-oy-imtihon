@@ -1,0 +1,37 @@
+
+.audio {
+    padding-bottom: 200px;
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.audio_title h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 1.4285714626312256px;
+    text-align: left;
+    width: 445px;
+    margin-bottom: 32px;
+}
+
+.audio_title h2 span {
+    color: #D87D4A;
+}
+
+img {
+    border-radius: 15px;
+}
+
+.audio_title p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    width: 445px;
+    color: #000000;
+}
