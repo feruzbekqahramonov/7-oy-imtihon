@@ -30,9 +30,7 @@ function Login() {
             localStorage.setItem("token" ,data.accessToken);
             localStorage.setItem("user", JSON.stringify(data));
             navigate("/");
-          } else {
-            alert(data.message);
-          }
+          } 
         })
         .catch((error) => console.error("Xatolik:", error))
         .finally(() => {
