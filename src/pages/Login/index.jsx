@@ -26,11 +26,11 @@ function Login() {
       })
         .then((res) => res.json())
         .then((data) => {
-          if (data.id) {
+        
             localStorage.setItem("token" ,data.accessToken);
             localStorage.setItem("user", JSON.stringify(data));
             navigate("/");
-          } 
+        
         })
         .catch((error) => console.error("Xatolik:", error))
         .finally(() => {
